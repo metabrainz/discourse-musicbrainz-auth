@@ -23,6 +23,7 @@ class OAuth2BasicAuthenticator < ::Auth::OAuth2Authenticator
                           opts[:token_params] = {headers: {'Authorization' => basic_auth_header }}
                         end
                         opts[:scope] = "profile email"
+                        opts[:redirect_uri] = "https://discourse.metabrainz.org/auth/oauth2_basic/callback"
                       }
   end
 
