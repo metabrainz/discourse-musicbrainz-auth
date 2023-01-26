@@ -8,3 +8,4 @@ en:
     oauth2_user_json_url: 'URL to fetch user JSON for MusicBrainz'
     oauth2_email_verified: 'Check this if MusicBrainz has verified the email address'
     oauth2_send_auth_header: 'Send the token as an HTTP Authorization header'
+    oauth2_button_title: 'Label for the login button'
