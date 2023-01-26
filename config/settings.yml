@@ -7,9 +7,6 @@ login:
   oauth2_authorize_url: 'https://musicbrainz.org/oauth2/authorize'
   oauth2_token_url: 'https://musicbrainz.org/oauth2/token'
   oauth2_user_json_url: 'https://musicbrainz.org/oauth2/userinfo'
-  oauth2_json_user_id_path: 'sub'
-  oauth2_json_username_path: 'sub'
-  oauth2_json_email_path: 'email'
   oauth2_email_verified: true
   oauth2_send_auth_header: true
   oauth2_button_title:
