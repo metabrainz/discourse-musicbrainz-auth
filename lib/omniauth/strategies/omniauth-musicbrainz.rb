@@ -29,6 +29,7 @@ module OmniAuth
 
       info do
         {
+          :nickname => raw_info['sub'],
           :name => raw_info['sub'],
           :email => raw_info['email'],
           :email_verified => raw_info['email_verified'],

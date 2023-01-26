@@ -16,6 +16,11 @@ class Auth::MusicBrainzAuthenticator < Auth::ManagedAuthenticator
     SiteSetting.oauth2_enabled
   end
 
+  def match_by_username
+    # MusicBrainz user names are immutable
+    true
+  end
+
   def register_middleware(omniauth)
     omniauth.provider :musicbrainz,
                       setup: lambda {|env|
